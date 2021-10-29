@@ -1,0 +1,49 @@
+/* flex direction example */
+/* @media (max-width: 950px) {
+    .block-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block:nth-child(1) {
+        background-color: red;
+    }
+    .block {
+        height: 350px;
+    }
+} */
+
+/* flex-wrap */
+/* @media (max-width: 400px) {
+    .block {
+        margin-bottom: 30px;
+    }
+    .block-flex {
+        justify-content: center;
+    }
+} */
+
+/* % example */
+@media (max-width: 800px) {
+    .block {
+        width: 45%;
+    }
+}
+@media (max-width: 480px) {
+    .block {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .section-wraper-block {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
