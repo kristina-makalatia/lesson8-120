@@ -47,3 +47,21 @@
         align-items: center;
     }
 }
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+    .logo {
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .block:nth-child(1) {
+        background-color: yellow;
+    }
+}
