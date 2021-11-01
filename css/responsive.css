@@ -33,6 +33,9 @@
     .block {
         width: 45%;
     }
+    .block-flex {
+        height: auto;
+    }
 }
 @media (max-width: 480px) {
     .block {
@@ -43,8 +46,13 @@
 
 @media (max-width: 1200px) {
     .section-wraper-block {
-        flex-direction: column-reverse;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 
